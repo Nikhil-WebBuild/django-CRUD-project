@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Django CRUD{% endblock %}
+
+{% block content %}
+<div class="home-container">
+    <div class="hero">
+        <h1>Welcome to Django CRUD</h1>
+        <p>A simple and elegant application to manage your items.</p>
+        <div class="cta-buttons">
+            <a href="{% url 'item_list' %}" class="btn btn-primary">View Items</a>
+            <a href="{% url 'item_create' %}" class="btn btn-secondary">Add New Item</a>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>Create</h3>
+            <p>Easily add new items to your collection.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Read</h3>
+            <p>View a comprehensive list of all your items.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Update</h3>
+            <p>Modify item details whenever you need.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Delete</h3>
+            <p>Remove items that are no longer needed.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
