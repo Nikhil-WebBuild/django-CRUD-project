@@ -1,14 +1,14 @@
 # Django CRUD Project
 
-A simple and elegant Django application to manage items, demonstrating full CRUD (Create, Read, Update, Delete) operations.
+A basic Django web app to manage items. It shows how to perform CRUD — Create, Read, Update, and Delete — actions.
 
 ## Features
 
--   **Create**: Add new items with a name and description.
--   **Read**: View a list of all items in a card-based layout.
--   **Update**: Edit existing items.
--   **Delete**: Remove items with a confirmation prompt.
--   **Responsive Design**: Modern UI with a responsive navbar and layout.
+- **Create**: Add new items with a name and description.
+- **Read**: See all items displayed in cards.
+- **Update**: Edit item details.
+- **Delete**: Delete items after confirmation.
+- **Responsive Design**: Works well on all screen sizes, with a simple and modern look.
 
 ## Technologies Used
 
@@ -49,6 +49,3 @@ A simple and elegant Django application to manage items, demonstrating full CRUD
 6.  **Access the application:**
     Open your browser and go to `http://127.0.0.1:8000/`
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
